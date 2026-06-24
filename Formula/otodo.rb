@@ -1,18 +1,18 @@
 class Otodo < Formula
   desc "Browse Obsidian vault TODO.md tasks in a terminal UI"
   homepage "https://github.com/zeetec20/obsidian-todo"
-  version "0.4.6"
+  version "0.4.7"
 
   depends_on :macos
 
   on_arm do
     url "https://github.com/zeetec20/obsidian-todo/releases/download/v#{version}/otodo-darwin-arm64.tar.gz"
-    sha256 "1e3cba55df0a2d09458f1f6684f88f76b196c957b34357298f6712ba4f98937e"
+    sha256 "bc3da9949457cd796ab567a5a44f5b9d42c493cb93cee736ebeca1be8d4ef56a"
   end
 
   on_intel do
     url "https://github.com/zeetec20/obsidian-todo/releases/download/v#{version}/otodo-darwin-x64.tar.gz"
-    sha256 "e1cbe8aac9f11499af40cc15b482b87a351a3df96b60e7b23a8c9758831ab300"
+    sha256 "a3833297dc4cd24f03dbd84b7d3d610672480fd1e702bba9ca7876ee4b7e3156"
   end
 
   def install
